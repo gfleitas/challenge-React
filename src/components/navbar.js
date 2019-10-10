@@ -8,7 +8,7 @@ export default class NavBar extends Component {
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src={logo} width="30" height="30" class="d-inline-block align-top" alt=""></img>
-                            KnowledgeDB
+                         KnowledgeDB
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,25 +20,25 @@ export default class NavBar extends Component {
                             Categorias
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="/links">Frontend</a>
+                            <a class="dropdown-item" href="#">Frontend</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="/links">Backend</a>
+                            <a class="dropdown-item" href="#">Backend</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="/links">Android</a>
+                            <a class="dropdown-item" href="#">Android</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="/links">UI/UX Diseño</a>
+                            <a class="dropdown-item" href="#">UI/UX Diseño</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="/links">IOS</a>
+                            <a class="dropdown-item" href="#">IOS</a>
                         </div>
                         </li>
                         <li class="nav-item">
-                            <a href="/profile" class="nav-link">Recursos</a>
+                            <a href="#" class="nav-link">Recursos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/logout" class="nav-link">Q&A</a>
+                            <a href="#" class="nav-link">Q&A</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/logout" class="nav-link">Acerca de</a>
+                            <a href="#" class="nav-link">Acerca de</a>
                         </li>
                         </ul>
                     </div>

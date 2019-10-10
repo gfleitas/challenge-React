@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //IMAGENES
-import reactS from './reactS.png'
+import reactS from './img/reactS.png'
 import angularS from './img/angularS.png'
 import reactHooksS from './img/reactHooksS.png'
 import angularJsS from './img/angularJsS.png'
@@ -12,7 +12,7 @@ export default class Cards extends Component {
     render() {
         return(
             <div class="container">
-                <h5 class="rdtitle">Recursos destacados</h5>
+                <h5 class="rdtitle"><b>Recursos destacados</b></h5>
                 <div class="row">
                     <div class="cards">
                         <div class="container">              
@@ -82,7 +82,7 @@ export default class Cards extends Component {
                     </div>
                 </div>
 
-                <button class="mt-5 btn-lg">Ver más</button>
+                
             </div>
          );
     }

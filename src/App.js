@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './components/navbar'
 import Banner from './components/banner'
 import Cards from './components/cards'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBar></NavBar>
       <Banner></Banner>
       <Cards></Cards>
+      <Footer></Footer>
     </div>
   );
 }

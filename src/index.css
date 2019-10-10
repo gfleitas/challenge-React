@@ -2,6 +2,7 @@
   height: 391px;
   background: #1781D2 0% 0% no-repeat padding-box;
   opacity: 0.86;
+  width: 100%;
 }
 
 .jumbotron h1{
@@ -28,7 +29,15 @@
   opacity: 1;
 }
 
-button{
+.jumbotron i{
+  position: absolute;
+  float: right;
+  color: rgb(163, 159, 159);
+  margin-top: 38px;
+  margin-left: 460px;
+}
+
+.jumbotron button{
   background-color: #FF9052;
   color: #ffffff;
   border: 1px;
@@ -50,7 +59,7 @@ button{
 }
 
 .card-body h5{
-  font-size: 13px !important;
+  font-size: 12px !important;
   float: left;
 }
 
@@ -58,5 +67,138 @@ button{
   border-radius: 5px;
   float: right;
   width: 91px;
+  text-decoration: none;
+}
+
+.ftbtn{
+  
+    background-color: #FF9052;
+    color: #ffffff;
+    border: 1px;
+    border-radius: 4px;
+    width: 30%;
+    box-shadow: 1px 5px 10px #827D7D;
+  
+}
+
+@media screen and (max-width: 1199px) {
+  
+  .card{
+    width: 18rem;
+  }
+  
+  .card-body h5{
+    font-size: 11px !important;
+    float: left;
+  }
+  
+  .card-body a{
+    width: 72px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .card{
+    margin-right: 42px;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+.card{
+  margin-right: 0px;
+  width: 15rem;
+  }
+
+.card-body h5{
+  font-size: 8.88px !important;
+  float: left;
+}
+  
+.card-body a{
+  width: 58px;
+  font-size: 9px;
+}
+
+.jumbotron h1{
+  font-size: 35px;
+}
+
+.jumbotron p{
+font-size: 13px;
+}
+
+.jumbotron i{
+  margin-left: 450px;
+}
+
+.jumbotron button{
+  width: 40%;
+}
 
 }
+
+@media screen and (max-width:496px){
+
+.navbar{
+  width: 496px !important;
+}
+
+.jumbotron {
+  width: 575px;
+}
+
+.jumbotron h1{
+  height: 60px;
+}
+
+.jumbotron input{
+  width: 70%;
+}
+
+.jumbotron i{
+  margin-left: 360px;
+}
+
+.rdtitle{
+  font-size: 15px;
+  margin-left: 20%;
+}
+  
+}
+
+@media screen and (max-width:451px) {
+
+  .jumbotron button{
+    width: 50%;
+  }
+
+  .rdtitle{
+    margin-left: 30%;
+  }
+  
+}
+
+@media screen and (max-width:369px) {
+  
+  .rdtitle{
+    margin-left: 40%;
+  }
+  
+  .ftbtn{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:367px) {
+
+  .rdtitle{
+    margin-left: 50%;
+  }
+
+  .jumbotron button{
+    width: 60%;
+  }
+  
+  }
