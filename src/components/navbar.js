@@ -7,8 +7,8 @@ export default class NavBar extends Component {
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img src={logo} width="30" height="30" class="d-inline-block align-top" alt=""></img>
-                         KnowledgeDB
+                        <img src={logo} width="30" height="30" class="d-inline-block align-top mr-2" alt=""></img>
+                        <b> KnowledgeDB </b>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

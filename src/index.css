@@ -1,3 +1,8 @@
+.dropdown-menu  a:active{
+  background-color: rgba(207, 207, 207, 0.808);
+  color: rgb(0, 0, 0);
+}
+
 .jumbotron {
   height: 391px;
   background: #1781D2 0% 0% no-repeat padding-box;
