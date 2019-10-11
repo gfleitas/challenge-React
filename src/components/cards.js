@@ -15,7 +15,7 @@ export default class Cards extends Component {
                 <h5 class="rdtitle"><b>Recursos destacados</b></h5>
                 <div class="row">
                     <div class="cards">
-                        <div class="container">              
+                        <div class="container p-1">              
                             <div class="card">
                                 <img src={reactS} class="card-img-top" alt="..."></img>
                                 <div class="card-body">
@@ -26,7 +26,7 @@ export default class Cards extends Component {
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="container">              
+                        <div class="container p-1">              
                             <div class="card">
                                 <img src={angularS} class="card-img-top" alt="..."></img>
                                 <div class="card-body">
@@ -37,7 +37,7 @@ export default class Cards extends Component {
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="container">              
+                        <div class="container p-1">              
                             <div class="card">
                                 <img src={reactHooksS} class="card-img-top" alt="..."></img>
                                 <div class="card-body">
@@ -48,7 +48,7 @@ export default class Cards extends Component {
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="container">              
+                        <div class="container p-1">              
                             <div class="card">
                                 <img src={angularJsS} class="card-img-top" alt="..."></img>
                                 <div class="card-body">
@@ -59,7 +59,7 @@ export default class Cards extends Component {
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="container">              
+                        <div class="container p-1">              
                             <div class="card">
                                 <img src={otlinS} class="card-img-top" alt="..."></img>
                                 <div class="card-body">
@@ -70,7 +70,7 @@ export default class Cards extends Component {
                         </div>
                     </div>
                     <div class="cards">
-                        <div class="container">              
+                        <div class="container p-1">              
                             <div class="card">
                                 <img src={vueS} class="card-img-top" alt="..."></img>
                                 <div class="card-body">
