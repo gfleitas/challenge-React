@@ -11,7 +11,7 @@ import vueS from './img/vueS.png'
 export default class Cards extends Component {
     render() {
         return(
-            <div class="container">
+            <div class="bgcards container">
                 <h5 class="rdtitle"><b>Recursos destacados</b></h5>
                 <div class="row">
                     <div class="cards">
